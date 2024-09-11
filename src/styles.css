@@ -1,0 +1,82 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Headings */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;  /* Include padding and border in the element's width */
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px; /* Added margin-top to separate the button from the input fields */
+    box-sizing: border-box;  /* Ensure padding is included in the button width */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Message styling */
+#message {
+    margin-top: 20px;
+    font-size: 16px;
+    color: green; /* Default color for accepted message */
+}
+
+/* Hidden class to hide the message */
+.hidden {
+    display: none;
+}
+
+/* Error class for showing error messages */
+.error {
+    color: red !important; 
+}
